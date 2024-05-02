@@ -66,14 +66,15 @@ p {
 }
 
 button {
-  padding: 8px 30px;
+  padding: 14px 30px;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1;
+  letter-spacing: 1px;
   width: fit-content;
   text-transform: uppercase;
   color: white;
-  background: var(--primary);
+  background: var(--secondary);
 }
 
 @media screen and (max-width: 480px) {

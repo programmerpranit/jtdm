@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import React from "react";
 import Navbar from "@/sections/Navbar";
+import Footer from "@/sections/Footer";
 
 export const metadata: Metadata = {
   title: "JTDM",
@@ -30,6 +31,7 @@ export default function RootLayout({
         </head>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
