@@ -34,9 +34,9 @@ const Navbar = (): JSX.Element => {
             }}
             className="flex h-8 w-8 flex-col justify-evenly md:hidden"
           >
-            <div className="line bg-primary h-0.5 w-full"></div>
-            <div className="line bg-primary h-0.5 w-full"></div>
-            <div className="line bg-primary h-0.5 w-full"></div>
+            <div className="line h-0.5 w-full bg-primary"></div>
+            <div className="line h-0.5 w-full bg-primary"></div>
+            <div className="line h-0.5 w-full bg-primary"></div>
           </div>
         </div>
         <div
@@ -55,25 +55,16 @@ const Navbar = (): JSX.Element => {
           <Link href="/experience">
             <p
               className={`font-medium ${
-                pathname === "/services" ? "text-primary" : "text-heading"
+                pathname === "/experience" ? "text-primary" : "text-heading"
               } hover:text-primary`}
             >
               Experience
             </p>
           </Link>
-          <Link href="/local">
-            <p
-              className={`font-medium ${
-                pathname === "/blogs" ? "text-primary" : "text-heading"
-              } hover:text-primary`}
-            >
-              Ask a Local
-            </p>
-          </Link>
           <Link href="/trips">
             <p
               className={`font-medium ${
-                pathname === "/contact" ? "text-primary" : "text-heading"
+                pathname === "/trips" ? "text-primary" : "text-heading"
               } hover:text-primary`}
             >
               Trips
@@ -82,10 +73,19 @@ const Navbar = (): JSX.Element => {
           <Link href="/food">
             <p
               className={`font-medium ${
-                pathname === "/contact" ? "text-primary" : "text-heading"
+                pathname === "/food" ? "text-primary" : "text-heading"
               } hover:text-primary`}
             >
               Food
+            </p>
+          </Link>
+          <Link href="/agri-stays">
+            <p
+              className={`font-medium ${
+                pathname === "/agri-stays" ? "text-primary" : "text-heading"
+              } hover:text-primary`}
+            >
+              Agri Stays
             </p>
           </Link>
         </div>

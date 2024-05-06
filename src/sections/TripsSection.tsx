@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const TripsSection = (): JSX.Element => {
@@ -13,11 +14,13 @@ const TripsSection = (): JSX.Element => {
             activities and weekend getaways to help you unwind, relax, and
             rejuvenate amidst nature&apos;s bounty.
           </p>
-          <button>Explore</button>
+          <Link href={"/trips"}>
+            <button>Explore</button>
+          </Link>
         </div>
         <div className="p-5 md:w-1/2">
           <Image
-            src={"/junnar.jpg"}
+            src={"/images/jdmc2.jpg"}
             className="rounded-2xl"
             alt=""
             width={900}

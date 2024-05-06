@@ -8,7 +8,7 @@ const AboutUsSection = (): JSX.Element => {
       <div className="mx-auto flex max-w-7xl flex-col items-center py-20 md:flex-row">
         <div className="p-5 md:w-1/2">
           <Image
-            src={"/junnar.jpg"}
+            src={"/jtdm-logo.jpg"}
             width={800}
             height={800}
             alt=""

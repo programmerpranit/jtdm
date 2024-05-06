@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const FoodSection = (): JSX.Element => {
@@ -7,11 +8,11 @@ const FoodSection = (): JSX.Element => {
       <div className="items-centers mx-auto flex max-w-7xl flex-col py-20 md:flex-row">
         <div className="p-5 md:w-1/2">
           <Image
-            src={"/junnar.jpg"}
+            src={"/puranpoli.jpg"}
             className="rounded-2xl"
             alt=""
             width={900}
-            height={900}
+            height={500}
           />
         </div>
         <div className="p-5 md:w-1/2">
@@ -23,7 +24,9 @@ const FoodSection = (): JSX.Element => {
             ingredients, and cooking techniques. Here&apos;s a glimpse into the
             vibrant food culture of Junnar
           </p>
-          <button>Explore</button>
+          <Link href={"/food"}>
+            <button>Explore</button>
+          </Link>
         </div>
       </div>
     </>
