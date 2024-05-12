@@ -8,7 +8,7 @@ const Footer = (): JSX.Element => {
       <div className="border-t md:p-10">
         <div className="mx-auto flex max-w-7xl flex-col md:flex-row">
           <div className="p-5 md:w-1/3">
-            <Image alt="" src={"/jtdm-logo.jpg"} width={150} height={150} />
+            <Image alt="" src={"/jtdm-logo.png"} width={150} height={150} />
             <p className="mt-5">
               Discover the hidden gems of Junnar, nestled in the heart of
               Maharashtra&apos;s Sahyadri mountain range.

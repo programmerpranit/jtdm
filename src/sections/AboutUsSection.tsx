@@ -6,16 +6,19 @@ const AboutUsSection = (): JSX.Element => {
   return (
     <>
       <div className="mx-auto flex max-w-7xl flex-col items-center py-20 md:flex-row">
-        <div className="p-5 md:w-1/2">
+        <div data-aos="fade-right" className="p-5 md:w-1/2">
           <Image
-            src={"/jtdm-logo.jpg"}
+            src={"/jtdm-logo.png"}
             width={800}
             height={800}
             alt=""
             className="rounded-2xl"
           />
         </div>
-        <div className="p-5 md:w-1/2 md:px-10 ">
+        <div
+          data-aos="fade-left"
+          className="p-5 max-md:text-center md:w-1/2 md:px-10 "
+        >
           <h2>About Us</h2>
           <br />
           <p>

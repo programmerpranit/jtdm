@@ -7,7 +7,10 @@ const WSUASection = (): JSX.Element => {
       <div className="mx-auto max-w-7xl py-20">
         <h2 className="p-5 text-center">What Sets Us Apart</h2>
         <div className="flex flex-wrap pt-10">
-          <div className="flex flex-col items-center p-5 md:w-1/3">
+          <div
+            data-aos="zoom-in"
+            className="flex flex-col items-center p-5 md:w-1/3"
+          >
             <Image
               src={"/icons/community.png"}
               alt=""
@@ -21,7 +24,10 @@ const WSUASection = (): JSX.Element => {
               industry.
             </p>
           </div>
-          <div className="flex flex-col items-center p-5 md:w-1/3">
+          <div
+            data-aos="zoom-in"
+            className="flex flex-col items-center p-5 md:w-1/3"
+          >
             <Image
               src={"/icons/environment.png"}
               alt=""
@@ -34,7 +40,10 @@ const WSUASection = (): JSX.Element => {
               biodiversity, and ecological integrity.
             </p>
           </div>
-          <div className="flex flex-col items-center p-5 md:w-1/3">
+          <div
+            data-aos="zoom-in"
+            className="flex flex-col items-center p-5 md:w-1/3"
+          >
             <Image
               src={"/icons/cultural.png"}
               alt=""

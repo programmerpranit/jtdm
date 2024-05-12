@@ -3,7 +3,7 @@ import React from "react";
 const AgriStaysSection = (): JSX.Element => {
   return (
     <>
-      <div className="mx-auto max-w-4xl pb-40 pt-20 text-center">
+      <div className="mx-auto max-w-4xl p-5 pb-40 pt-20 text-center">
         <h5 className="text-secondary">Agritourism stays in Junnar</h5>
         <h2 className="mb-5">Agri Stays</h2>
         <p>

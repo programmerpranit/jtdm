@@ -18,11 +18,11 @@ const Navbar = (): JSX.Element => {
   return (
     <>
       <nav className="flex flex-col justify-evenly  md:flex-row">
-        <div className="logo flex h-32 items-center justify-between  p-5  max-md:border-b">
+        <div className="logo flex h-20 items-center justify-between  p-5  max-md:border-b">
           <Link href={"/"}>
             <Image
               className="object-contain"
-              src={"/jtdm-logo.jpg"}
+              src={"/jtdm-logo.png"}
               alt=""
               width={100}
               height={100}
@@ -41,7 +41,7 @@ const Navbar = (): JSX.Element => {
         </div>
         <div
           className={`links  ${toggle ? "translate-x-0" : "max-md:translate-x-[100vw]"} absolute right-0 z-50 flex flex-col items-center gap-10 bg-white
-        p-5 transition-all duration-500 ease-in-out max-md:top-32 max-md:h-[90vh] max-md:w-2/3 max-md:border-l md:relative md:flex-row`}
+        p-5 transition-all duration-500 ease-in-out max-md:top-20 max-md:h-[90vh] max-md:w-2/3 max-md:border-l md:relative md:flex-row`}
         >
           <Link href="/about">
             <p

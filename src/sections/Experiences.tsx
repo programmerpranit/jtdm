@@ -6,8 +6,8 @@ const Experiences = (): JSX.Element => {
   return (
     <>
       <div className="mx-auto max-w-7xl py-20 text-center">
-        <h2>Experiences in Junnar</h2>
-        <p className="mx-auto mt-5 max-w-3xl ">
+        <h2 className="px-5">Experiences in Junnar</h2>
+        <p className="mx-auto mt-5 max-w-3xl px-5 ">
           Junnar, located in the Pune district of Maharashtra, India, is a
           treasure trove of historical sites, natural wonders, and cultural
           attractions. Here are some top places to visit in Junnar
