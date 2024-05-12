@@ -6,7 +6,7 @@ const FoodSection = (): JSX.Element => {
   return (
     <>
       <div className="items-centers mx-auto flex max-w-7xl flex-col py-20 md:flex-row">
-        <div className="p-5 md:w-1/2">
+        <div data-aos="fade-right" className="p-5 md:w-1/2">
           <Image
             src={"/puranpoli.jpg"}
             className="rounded-2xl"
@@ -15,7 +15,7 @@ const FoodSection = (): JSX.Element => {
             height={500}
           />
         </div>
-        <div className="p-5 md:w-1/2">
+        <div data-aos="fade-left" className="p-5 md:w-1/2">
           <h5>A taste of heaven</h5>
           <h2>Food and Cuisine</h2>
           <p className="py-3">

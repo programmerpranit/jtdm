@@ -6,7 +6,7 @@ const TripsSection = (): JSX.Element => {
   return (
     <>
       <div className="items-centers mx-auto flex max-w-7xl flex-col-reverse py-20 md:flex-row">
-        <div className="p-5 md:w-1/2">
+        <div data-aos="fade-right" className="p-5 md:w-1/2">
           <h5>Leisure Trips for Weekends</h5>
           <h2>Trips in Junnar</h2>
           <p className="py-3">
@@ -18,7 +18,7 @@ const TripsSection = (): JSX.Element => {
             <button>Explore</button>
           </Link>
         </div>
-        <div className="p-5 md:w-1/2">
+        <div data-aos="fade-left" className="p-5 md:w-1/2">
           <Image
             src={"/images/jdmc2.jpg"}
             className="rounded-2xl"

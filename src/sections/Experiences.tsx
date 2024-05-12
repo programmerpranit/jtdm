@@ -13,7 +13,7 @@ const Experiences = (): JSX.Element => {
           attractions. Here are some top places to visit in Junnar
         </p>
         <div className="flex flex-wrap py-10">
-          <div className="p-5 md:w-1/3">
+          <div data-aos="fade-right" className="p-5 md:w-1/3">
             <Image
               src={"/images/jdmc5.jpg"}
               width={500}
@@ -27,7 +27,7 @@ const Experiences = (): JSX.Element => {
               region.
             </p>
           </div>
-          <div className="p-5 md:w-1/3">
+          <div data-aos="fade-up" className="p-5 md:w-1/3">
             <Image
               src={"/images/jdmc4.jpg"}
               width={500}
@@ -41,7 +41,7 @@ const Experiences = (): JSX.Element => {
               agro-tourism centers in Junnar
             </p>
           </div>
-          <div className="p-5 md:w-1/3">
+          <div data-aos="fade-left" className="p-5 md:w-1/3">
             <Image
               src={"/images/junnar-market.jpg"}
               width={500}
