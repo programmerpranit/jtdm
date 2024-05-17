@@ -27,12 +27,7 @@ const Slider = (): JSX.Element => {
         className="relative h-screen w-screen"
       >
         <SwiperSlide className="relative h-screen w-screen">
-          <Image
-            src={"/images/jdmc1.jpg"}
-            alt=""
-            fill
-            className="object-cover"
-          />
+          <Image src={"/shivneri1.jpg"} alt="" fill className="object-cover" />
           <div className="absolute top-0 flex h-screen w-screen flex-col items-center justify-center bg-black bg-opacity-50 py-10">
             <div className="flex h-[80vh] w-screen flex-col items-center justify-center p-5">
               <h5 className="text-secondary">Welcome to Junnar</h5>
@@ -49,12 +44,7 @@ const Slider = (): JSX.Element => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="relative h-screen w-screen">
-          <Image
-            src={"/images/jdmc3.jpg"}
-            alt=""
-            fill
-            className="object-cover"
-          />
+          <Image src={"/waterfall.jpg"} alt="" fill className="object-cover" />
           <div className="absolute top-0 flex h-screen w-screen flex-col items-center justify-center bg-black bg-opacity-50 py-10">
             <div className="flex h-[80vh] w-screen flex-col  items-center justify-center p-5">
               <h5 className="text-secondary">Welcome to Junnar</h5>

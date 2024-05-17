@@ -6,10 +6,13 @@ const TripsPage = (): JSX.Element => {
       <div className="mx-auto max-w-7xl py-20 text-center">
         <h5>Leisure Trips for Weekends</h5>
         <h2>Trips in Junnar</h2>
-        <p className="mx-auto mt-5 max-w-3xl ">
-          Based on your preference, Junnar offers plenty of leisurely activities
-          and weekend getaways to help you unwind, relax, and rejuvenate amidst
-          nature&apos;s bounty.
+        <p className="mx-auto mt-5 max-w-4xl ">
+          We have a diverse range of package tours available in Junnar! From
+          trekking and biodiversity trails to cave tours and heritage walks,
+          there&apos;s something for everyone. Whether you&apos;re interested in
+          adventure, nature, history, or spirituality, Junnar has it all
+          covered. Which package tour are you most interested in exploring? Do
+          contact us and we will design a joyous tour for you and your family.
         </p>
         <div className="my-10 flex flex-wrap">
           <TripCard
